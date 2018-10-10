@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login Page</title>
+		<script src="mysrc.js"></script>
+	</head>
+	<body>
+		<p><h1>Registered Users</h1></p>
+		<form method="post" action="login.php">
+		<p><label>Username</label>
+		<input type="text" name="uname">
+		</p>
+		<p><label>Password</label>
+		<input type="password" name="pass">
+		</p>
+		<p><input type="submit" name="login" value="Log in"</p>
+		</form>
+		
+		
+		<p><h1>New Users</h1></p>
+		<form method="post" action="signup.php">
+			<p><label>First Name</label>
+				<input type="text" name="firstname">
+			</p>
+			<p><label>Last Name</label>
+				<input type="text" name="lastname">
+			</p>
+			<p><label>Phone</label>
+				<input type="text" name="phone">
+			</p>
+			<p><label>Email</label>
+				<input type="text" name="email">
+			</p>
+			<p><label>Username</label>
+				<input type="text" name="username">
+			</p>
+			<p><label>Password</label>
+				<input type="password" name="password" id="password">
+			</p>
+			<p><label>Retype Password</label>
+				<input type="password" name="retypepassword" id="retypepassword"><span id="nomatch"></span>
+			</p>
+			<p><input type="submit" value="Sign Up" name="signup"></p>
+		</form>
+	</body>
+</html>
